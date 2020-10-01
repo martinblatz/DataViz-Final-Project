@@ -19,6 +19,9 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
+![image](https://user-images.githubusercontent.com/68836117/94757350-062c9800-0368-11eb-9e40-f0e97753a6b5.png)
+
+
 
 
 ## Open Questions
