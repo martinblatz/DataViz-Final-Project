@@ -7,7 +7,7 @@ Prototype
 I've created a proof of concept visualization of this data. It's a ... and it shows ...
 screenshot here
 
-![image](https://user-images.githubusercontent.com/68836117/94756820-8e11a280-0366-11eb-9801-81533672c616.png)
+[![image](https://user-images.githubusercontent.com/68836117/94756820-8e11a280-0366-11eb-9801-81533672c616.png)](https://vizhub.com/martinblatz/b41be4226589490bb271121cc9488ca5)
 
 Questions and Tasks
 The following tasks and questions will drive the visualization and interaction decisions for this project
