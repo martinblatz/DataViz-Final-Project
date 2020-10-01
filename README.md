@@ -1,6 +1,6 @@
-#Data Visualization Project
+# Data Visualization Project
 
-##Data
+## Data
 The data I propose to visualize for my project is from the [Fatal Police Shootings Database](https://gist.github.com/martinblatz/e7f1d853eec2cb8cafd3ffbdc068f494) compiled by the [Washington Post](https://www.washingtonpost.com)
 
 Prototype
