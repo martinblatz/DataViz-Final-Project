@@ -21,7 +21,7 @@ The following tasks and questions will drive the visualization and interaction d
 
 ![image](https://user-images.githubusercontent.com/68836117/94757350-062c9800-0368-11eb-9e40-f0e97753a6b5.png)
 
-
+![image](https://user-images.githubusercontent.com/68836117/94757428-2f4d2880-0368-11eb-8b4a-1b8440bc5c06.png)
 
 
 ## Open Questions
