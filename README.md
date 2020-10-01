@@ -4,7 +4,7 @@
 The data I propose to visualize for my project is from the [Fatal Police Shootings Database](https://gist.github.com/martinblatz/e7f1d853eec2cb8cafd3ffbdc068f494) compiled by the [Washington Post](https://www.washingtonpost.com)
 
 ## Prototype
-I've created a proof of concept visualization of this data. It's a ... and it shows ..
+I've created two proof of concept visualizations of the data set, shown below.
 
 [![image](https://user-images.githubusercontent.com/68836117/94756820-8e11a280-0366-11eb-9801-81533672c616.png)](https://vizhub.com/martinblatz/b41be4226589490bb271121cc9488ca5)
 The visualization shows the count of fatal police shootings represented in a stacked bar chart, categorized by race along the X axis and color coded based on the "flee" status of the victim.
@@ -32,8 +32,11 @@ This is a representative sketch showing a pie chart assigned to each state. Each
 This is an area chart that shows the total fatal police shootings over time. Each stacked area represents the number of victims for a different racial background. The sketch currently shows the data as a instantaneous total for a given time, but upon further thought I believe that a cumulative total makes more sense for this type of chart. Thus, each line will always either stay flat or rise as it moves to the right.
 
 ## Open Questions
-- what binning level is appropriate for this data when categorizing by age or date?
-- would it be more telling to transform the data to show representative data corrected for the racial or age demographics of the state or U.S. as a whole?
+- What binning level is appropriate for this data when categorizing by age or date?
+- Would it be more telling to transform the data to show representative data corrected for the racial or age demographics of the state or U.S. as a whole?
 - I need to learn to map the data to a state location within a U.S. map. There appear to be some examples of a more basic mapping approach that may be used as a reference to build upon. 
-- combining this data set with U.S. and/or state demographics may be challenging and will require further research
+- Combining this data set with U.S. and/or state demographics may be challenging and will require further research
 
+## Imagine the Adjacent Possible
+- I think it would be really interesting to be able to build the map referenced in the sketches above, but to be able to have a single visualization that allows the user to select a variable to populate the pie charts. The ability to perform advanced filtering based on the rich data set (age, gender, race, armed status, fleeing status) would be a great way to provide a more interactive data exploration experience. 
+- If I could get sufficient city level data, it would be really interesting to see if there are any correlations between demographics, population, or political/voting tendencies and the volume of police shootings.
