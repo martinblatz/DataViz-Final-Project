@@ -7,9 +7,14 @@ The data I propose to visualize for my project is from the [Fatal Police Shootin
 I've created a proof of concept visualization of this data. It's a ... and it shows ..
 
 [![image](https://user-images.githubusercontent.com/68836117/94756820-8e11a280-0366-11eb-9801-81533672c616.png)](https://vizhub.com/martinblatz/b41be4226589490bb271121cc9488ca5)
+The visualization shows the count of fatal police shootings represented in a stacked bar chart, categorized by race along the X axis and color coded based on the "flee" status of the victim.
 
 [![image](https://user-images.githubusercontent.com/68836117/94756938-ed6fb280-0366-11eb-8206-afe7f4de55bd.png)](https://vizhub.com/martinblatz/eb72f6e679a64e49982b9f1440d0ef9e)
+This graphic explores the second question in my previous assignment, "What is the demographic breakdown of fatal police shootings in the US, and how does it compare to the demographics of the entire US population?" In 2019, [US Census data](https://www.census.gov/quickfacts/fact/table/US/PST045219) shows that the U.S. is 60% white alone (not Hispanic or Latinx). The U.S. is 13% Black or African American alone, and 19% Hispanic or Latinx. Just under 3% of the U.S. identifies with more than one race. 
 
+The visualization clearly shows that Black non-Hispanic and Hispanic individuals account for a much more significant percentage of shooting victims in the under 40 age ranges.
+
+I'd like to spend more time working with this visualization to improve the legend and try completing the data binning within the embedded javascript. Normalizing the data and showing a faded chart in the background with the actual U.S. demographics would be a powerful way to visually compare the shooting data to the overall population.
 
 ## Questions and Tasks
 The following tasks and questions will drive the visualization and interaction decisions for this project
