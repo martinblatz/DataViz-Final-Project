@@ -69,7 +69,8 @@ This is an area chart that shows the total fatal police shootings over time. Eac
     - Armed Status
     - Signs of mental illness
     - threat level
-  - Menu to choose between grouping by age bin or race
-  - 
-  - 
+  - Conmplete any debugging necessary
 - Week 10, November 4:
+  - Menu to choose between grouping by age bin or race
+  - Export to GitHub
+  - DataVis portfolio video
