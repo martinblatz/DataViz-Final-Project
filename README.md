@@ -30,9 +30,11 @@ The following tasks and questions will drive the visualization and interaction d
 ## Sketches
 
 ![image](https://user-images.githubusercontent.com/68836117/94757350-062c9800-0368-11eb-9e40-f0e97753a6b5.png)
+
 This is a representative sketch showing a pie chart assigned to each state. Each pie chart will show the percentage of shootings in a given state broken down by race, age bin, armed status, and/or fleeing status. I envision this sketch as 4 separate charts that can be iterated across to provide more detail.  
 
 ![image](https://user-images.githubusercontent.com/68836117/94757428-2f4d2880-0368-11eb-8b4a-1b8440bc5c06.png)
+
 This is an area chart that shows the total fatal police shootings over time. Each stacked area represents the number of victims for a different racial background. The sketch currently shows the data as a instantaneous total for a given time, but upon further thought I believe that a cumulative total makes more sense for this type of chart. Thus, each line will always either stay flat or rise as it moves to the right.
 
 ## Open Questions
@@ -44,3 +46,9 @@ This is an area chart that shows the total fatal police shootings over time. Eac
 ## Imagine the Adjacent Possible
 - I think it would be really interesting to be able to build the map referenced in the sketches above, but to be able to have a single visualization that allows the user to select a variable to populate the pie charts. The ability to perform advanced filtering based on the rich data set (age, gender, race, armed status, fleeing status) would be a great way to provide a more interactive data exploration experience. 
 - If I could get sufficient city level data, it would be really interesting to see if there are any correlations between demographics, population, or political/voting tendencies and the volume of police shootings.
+
+## Ideas for Interaction
+- Create a menu/checkbox for each of the following categories: Flee status, armed status, signs of mental illness, and threat level. Use the menu or checkbox to filter data from the visualized data. This will enable the user to explore the data more thoroughly and look for patterns.
+- A menu to switch between the categorical values represented by the visualization: age bin, race. 
+
+## Schedule of Deliverables
