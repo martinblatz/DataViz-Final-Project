@@ -5,7 +5,7 @@ Fall 2020
 Data Visualization
 
 ## Data
-The data I propose to visualize for my project is from the [Fatal Police Shootings Database](https://gist.github.com/martinblatz/e7f1d853eec2cb8cafd3ffbdc068f494) compiled by the [Washington Post](https://www.washingtonpost.com)
+The data I propose to visualize for my project is from the [Fatal Police Shootings Database](https://gist.github.com/martinblatz/e7f1d853eec2cb8cafd3ffbdc068f494) compiled by the [Washington Post](https://www.washingtonpost.com).
 
 ## Prototype
 I've created two proof of concept visualizations of the data set, shown below.
@@ -49,6 +49,27 @@ This is an area chart that shows the total fatal police shootings over time. Eac
 
 ## Ideas for Interaction
 - Create a menu/checkbox for each of the following categories: Flee status, armed status, signs of mental illness, and threat level. Use the menu or checkbox to filter data from the visualized data. This will enable the user to explore the data more thoroughly and look for patterns.
-- A menu to switch between the categorical values represented by the visualization: age bin, race. 
+- A menu to switch between the categorical values represented by the visualization: age bin, race. The visualization will shift to group the data based on the selected variable. 
+- Interactive highlighting where the user can hover over the legend and it will grey out all other values within the visualization.
 
 ## Schedule of Deliverables
+- Week 7, October 14:
+  - Initial data processing
+    - Attempt to perform the age binning operation internally to the program, rather than prior to loading
+    - Clean up null values within the data
+  - Build a map of the US and add a simple marker to each state based on the total number of police shooting deaths in that state. This answers the question "Do fatal police shootings occur more often in certain parts of the country?"
+- Week 8, October 21:
+  - Build a pie chart component which can be placed anywhere on the map based on location
+  - Refine existing bar charts
+    - Detailed axis labels
+    - Legend
+- Week 9, October 28:
+  - Filter based on
+    - Flee status
+    - Armed Status
+    - Signs of mental illness
+    - threat level
+  - Menu to choose between grouping by age bin or race
+  - 
+  - 
+- Week 10, November 4:
