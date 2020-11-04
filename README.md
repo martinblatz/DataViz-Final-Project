@@ -18,8 +18,7 @@ This graphic explores the second question in my previous assignment, "What is th
 
 The visualization clearly shows that Black non-Hispanic and Hispanic individuals account for a much more significant percentage of shooting victims in the under 40 age ranges.
 
-
-[](https://vizhub.com/martinblatz/3ec586d080e5447dbb0774aabc392acd)
+[![image](https://github.com/martinblatz/DataViz-project-proposal/issues/5#issue-735755876)](https://vizhub.com/martinblatz/3ec586d080e5447dbb0774aabc392acd)
 This graphic is a later prototype of the bar chart which eventually become color coded to match the geomapped data and placed in the bottom right corner of the final visualization.
 
 ## Questions and Tasks
