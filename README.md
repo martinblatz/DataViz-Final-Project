@@ -18,21 +18,23 @@ This graphic explores the second question in my previous assignment, "What is th
 
 The visualization clearly shows that Black non-Hispanic and Hispanic individuals account for a much more significant percentage of shooting victims in the under 40 age ranges.
 
-[![image](https://github.com/martinblatz/DataViz-project-proposal/issues/5#issue-735755876)](https://vizhub.com/martinblatz/3ec586d080e5447dbb0774aabc392acd)
+[![image](https://user-images.githubusercontent.com/68836117/98060770-6e174800-1e18-11eb-8169-9353d6089a4d.PNG)](https://vizhub.com/martinblatz/3ec586d080e5447dbb0774aabc392acd)
 This graphic is a later prototype of the bar chart which eventually become color coded to match the geomapped data and placed in the bottom right corner of the final visualization.
 
 ## Questions and Tasks
 The following tasks and questions will drive the visualization and interaction decisions for this project
-- Do fatal police shootings occur more often in certain parts of the country?
-- Are racial or age disparities as they apply to police violence more evident in certain parts of the country?
-- What is the demographic breakdown of fatal police shootings in the US, and how does it compare to the demographics of the entire US population?
-- Are fatal police shootings becoming more or less common?
+- [x] Do fatal police shootings occur more often in certain parts of the country?
+- [ ] Are racial or age disparities as they apply to police violence more evident in certain parts of the country?
+- [x] What is the demographic breakdown of fatal police shootings in the US? 
+- [x] Are there any other patterns in the demographics of victims of fatal police shootings?
+- [ ] and how does it compare to the demographics of the entire US population?
+- [ ] Are fatal police shootings becoming more or less common?
 
 ## Sketches
 
 ![image](https://user-images.githubusercontent.com/68836117/94757350-062c9800-0368-11eb-9e40-f0e97753a6b5.png)
 
-This is a representative sketch showing a pie chart assigned to each state. Each pie chart will show the percentage of shootings in a given state broken down by race, age bin, armed status, and/or fleeing status. I envision this sketch as 4 separate charts that can be iterated across to provide more detail.  
+This is a representative sketch showing a pie chart assigned to each state. Each pie chart will show the percentage of shootings in a given state broken down by race, age bin, armed status, and/or fleeing status. I envision this sketch as 4 separate charts that can be iterated across to provide more detail. This is additional future work based on binning at the state level. The current visualization only bins at the national level.
 
 ![image](https://user-images.githubusercontent.com/68836117/94757428-2f4d2880-0368-11eb-8b4a-1b8440bc5c06.png)
 
