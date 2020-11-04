@@ -90,4 +90,4 @@ The bar chart in the bottom right of the visualization changes with new selectio
   - Complete any debugging necessary
 - Week 10, November 4:
   - Export to GitHub
-  - DataVis portfolio video
+  - [DataVis portfolio video](https://youtu.be/4RtZ3V7WEkI)
