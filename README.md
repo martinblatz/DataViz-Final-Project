@@ -29,6 +29,7 @@ The following tasks and questions will drive the visualization and interaction d
 - [x] Are there any other patterns in the demographics of victims of fatal police shootings?
 - [ ] and how does it compare to the demographics of the entire US population?
 - [ ] Are fatal police shootings becoming more or less common?
+- [x] (From "imagine the adjacent possible") I think it would be really interesting to be able to build the map referenced in the sketches above, but to be able to have a single visualization that allows the user to select a variable to populate the pie charts. The ability to perform advanced filtering based on the rich data set (age, gender, race, armed status, fleeing status) would be a great way to provide a more interactive data exploration experience. 
 
 ## Sketches
 
@@ -42,20 +43,31 @@ This is an area chart that shows the total fatal police shootings over time. Eac
 
 ## Visualizations
 
-## Open Questions
+[![image](https://user-images.githubusercontent.com/68836117/98062460-0fec6400-1e1c-11eb-8603-4d04c23ef53a.PNG)](https://vizhub.com/martinblatz/fa7ccb3fee8540e4933b8dd78604b077)
+
+When hovering over an entry in the legend, all marks represented by the entry are highlighted by increasing opacity on all other marks.
+
+[![image](https://user-images.githubusercontent.com/68836117/98062493-20044380-1e1c-11eb-8d9a-f38944f68606.PNG)](https://vizhub.com/martinblatz/fa7ccb3fee8540e4933b8dd78604b077)
+
+Select a new category to explore by clicking on the drop down menu at the top of the visualization. 
+
+[![image](https://user-images.githubusercontent.com/68836117/98062414-fba86700-1e1b-11eb-8f6f-a5e8f8899ddf.PNG)](https://vizhub.com/martinblatz/fa7ccb3fee8540e4933b8dd78604b077)
+
+The bar chart in the bottom right of the visualization changes with new selections in the drop down menu, showing the overall national breakdown for the selected attribute. Hover over each bar for an exact count.
+
+## Future Work
+
+### Open Questions
 - What binning level is appropriate for this data when categorizing by age or date?
 - Would it be more telling to transform the data to show representative data corrected for the racial or age demographics of the state or U.S. as a whole?
-- I need to learn to map the data to a state location within a U.S. map. There appear to be some examples of a more basic mapping approach that may be used as a reference to build upon. 
 - Combining this data set with U.S. and/or state demographics may be challenging and will require further research
 
-## Imagine the Adjacent Possible
-- I think it would be really interesting to be able to build the map referenced in the sketches above, but to be able to have a single visualization that allows the user to select a variable to populate the pie charts. The ability to perform advanced filtering based on the rich data set (age, gender, race, armed status, fleeing status) would be a great way to provide a more interactive data exploration experience. 
+### Imagine the Adjacent Possible
 - If I could get sufficient city level data, it would be really interesting to see if there are any correlations between demographics, population, or political/voting tendencies and the volume of police shootings.
+- Work towards a module which builds a pie chart given an array of data and lat/long coordinates. I struggled with this originally and decided to work on part of my "adjacent possible" instead.
 
-## Ideas for Interaction
+### Additional Ideas for Interaction 
 - Create a menu/checkbox for each of the following categories: Flee status, armed status, signs of mental illness, and threat level. Use the menu or checkbox to filter data from the visualized data. This will enable the user to explore the data more thoroughly and look for patterns.
-- A menu to switch between the categorical values represented by the visualization: age bin, race. The visualization will shift to group the data based on the selected variable. 
-- Interactive highlighting where the user can hover over the legend and it will grey out all other values within the visualization.
 
 ## Schedule of Deliverables
 - Week 7, October 14:
