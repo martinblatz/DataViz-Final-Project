@@ -5,10 +5,10 @@ Fall 2020
 Data Visualization
 
 ## Data
-The data I propose to visualize for my project is from the [Fatal Police Shootings Database](https://gist.github.com/martinblatz/e7f1d853eec2cb8cafd3ffbdc068f494) compiled by the [Washington Post](https://www.washingtonpost.com).
+The data I have chosen to visualize for my project is from the [Fatal Police Shootings Database](https://gist.github.com/martinblatz/e7f1d853eec2cb8cafd3ffbdc068f494) compiled by the [Washington Post](https://www.washingtonpost.com). The [study](https://www.washingtonpost.com/graphics/investigations/police-shootings-database/) provides meta data on recent fatal police shootings in the U.S. such as victim age, race, gender, fleeing status, armed status, the appearance of a mental illness, threat level, and location. It is regularly updated, so the data used for this project may be out of date. 
 
 ## Prototype
-I've created two proof of concept visualizations of the data set, shown below.
+I've created three proof of concept visualizations of the data set, shown below.
 
 [![image](https://user-images.githubusercontent.com/68836117/94756820-8e11a280-0366-11eb-9801-81533672c616.png)](https://vizhub.com/martinblatz/b41be4226589490bb271121cc9488ca5)
 The visualization shows the count of fatal police shootings represented in a stacked bar chart, categorized by race along the X axis and color coded based on the "flee" status of the victim.
