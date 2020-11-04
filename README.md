@@ -18,7 +18,9 @@ This graphic explores the second question in my previous assignment, "What is th
 
 The visualization clearly shows that Black non-Hispanic and Hispanic individuals account for a much more significant percentage of shooting victims in the under 40 age ranges.
 
-I'd like to spend more time working with this visualization to improve the legend and try completing the data binning within the embedded javascript. Normalizing the data and showing a faded chart in the background with the actual U.S. demographics would be a powerful way to visually compare the shooting data to the overall population.
+
+[](https://vizhub.com/martinblatz/3ec586d080e5447dbb0774aabc392acd)
+This graphic is a later prototype of the bar chart which eventually become color coded to match the geomapped data and placed in the bottom right corner of the final visualization.
 
 ## Questions and Tasks
 The following tasks and questions will drive the visualization and interaction decisions for this project
@@ -36,6 +38,8 @@ This is a representative sketch showing a pie chart assigned to each state. Each
 ![image](https://user-images.githubusercontent.com/68836117/94757428-2f4d2880-0368-11eb-8b4a-1b8440bc5c06.png)
 
 This is an area chart that shows the total fatal police shootings over time. Each stacked area represents the number of victims for a different racial background. The sketch currently shows the data as a instantaneous total for a given time, but upon further thought I believe that a cumulative total makes more sense for this type of chart. Thus, each line will always either stay flat or rise as it moves to the right.
+
+## Visualizations
 
 ## Open Questions
 - What binning level is appropriate for this data when categorizing by age or date?
